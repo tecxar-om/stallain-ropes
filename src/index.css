@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+code {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Navbar Css */
+.overlay-navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar is on top of the carousel */
+  padding: 3rem; /* Adjust padding as needed */
+}
+
+.navbar-overlay {
+    top: 0;
+}
+
+.brand-image-overlay {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 6.5%;
+  transform: translate(-50%, -50%);
+}
+
+.black-bold-text{
+  font-weight: 600 !important;
+  color: gray !important;
+}
+
+.black-font{
+  color: black !important;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+border: none;
+}
+
+.black-bold-text:hover{
+  color: black !important;
+}
+
+.button-class{
+  color: white !important;
+  background-color: #006BB5 !important;
+  border: none !important;
+}
+
+.nav-link:hover{
+  color: #006BB5 !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #006BB5 !important;
+}
+
+/* Caresoul Css */
+.carousel-image {
+  height: 820px; 
+}
+
+.custom-caresoul .carousel-indicators{
+  display: none !important;
+}
+
+/* Service Css */
+.card-style{
+  border: none !important;
+}
+
+/* Rope caresouls Css */
+.rope-caresouls .carousel-control-prev,
+.rope-caresouls .carousel-control-next {
+  display: none !important;
+}
+
+.rope-caresouls .carousel-inner{
+  height: 500px !important;
+}
+
+/* Counter Css */
+.custom-card {
+  width: 18rem;
+  border: none !important;
+  text-align: center;
+}
+
+.custom-card-border {
+  border-right: 1px solid #D0CCCC !important; /* Add a vertical border on the right side */
+  border-radius: 0% !important;
+}
+
+/* Contact-us Css */
+.form-label{
+  color: #006BB5;
+  font-weight: 600;
+}
+
+.custom-input {
+  background-color: #e3eef0 !important;
+  border-radius: 0% !important;
+}
+
+/* Footer Css */
+.footer-bg{
+  background-color: #006BB5;
+}
+
+.font-white{
+  color: white;
+}
+
+.service-item.first {
+  border-right: 1px solid #315481;
+  border-bottom: 1px solid #315481;
+}
+
+.service-item.second {
+  border-left: 1px solid #315481;
+  border-right: 1px solid #315481;
+  border-bottom: 1px solid #315481;
+}
+/* Media query for small screens */
+@media (max-width: 576px) {
+  .carousel-image {
+    height: 300px; 
+  }
+
+
+.carousel-control-prev{
+  display: none !important;
+}
+
+.carousel-control-next{
+  display: none !important;
+}
+}
+
+/* Media query for medium screens */
+@media (min-width: 576px) and (max-width: 768px) {
+  .carousel-image {
+    height: 500px; 
+  }
+}
+
+/* Media query for large screens */
+@media (min-width: 768px) and (max-width: 992px) {
+ 
+}
+
+/* Media query for extra large screens */
+@media (min-width: 992px) {
+ 
+}
